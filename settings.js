@@ -2,15 +2,15 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 /*
-	* Create By Naze
-	* Follow https://github.com/nazedev
+	* Create By EXzohh
+	* Follow https://github.com/exzohhaza
 	* Whatsapp : https://whatsapp.com/channel/0029VaWOkNm7DAWtkvkJBK43
 */
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
 global.owner = ['6285729155613'] //['628','628'] 2 owner atau lebih
-global.author = 'EXzohy'
+global.author = 'EXzohh'
 global.botname = 'Tueur Silencieux MD'
 global.packname = 'Bot WhatsApp'
 global.listprefix = ['+','!','.']
@@ -36,10 +36,10 @@ global.fake = {
 }
 
 global.my = {
-	yt: 'https://youtube.com/c/Nazedev',
-	gh: 'https://github.com/nazedev',
+	yt: 'https://youtube.com/c/exzohh',
+	gh: 'https://github.com/exzohh',
 	gc: 'https://chat.whatsapp.com/B5qJIwZHm4VEYZJQE6iMwy',
-	ch: '120363250409960161@newsletter',
+	ch: '120363399388662700@newsletter',
 }
 
 global.limit = {
@@ -90,4 +90,5 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 });
+
 
